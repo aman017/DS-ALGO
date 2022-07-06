@@ -1,6 +1,8 @@
 package dynamicProgramming;
 
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class EditDistance {
 
@@ -9,6 +11,7 @@ public class EditDistance {
 	public int editDistance(String s, String t) {
 		// Code here
 
+		 Set<Integer> set=new HashSet<>();
 		for (int[] d : dp) {
 			Arrays.fill(d, -1);
 		}
