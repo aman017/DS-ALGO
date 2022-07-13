@@ -33,7 +33,6 @@ public class LongSubSeqdiff1 {
 			return 0;
 		}
 		if (dp[in][val] != -1) {
-			int temp=dp[in][val];
 			return dp[in][val];
 		}
 		int sum = 0;
